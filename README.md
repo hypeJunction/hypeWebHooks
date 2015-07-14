@@ -21,7 +21,7 @@ Content-Length: 84
 
 Requests are signed with sha256 HMAC, which can be used to validate the payload.
 HMAC is added to the payload URL as a query parameter, e.g.
-```http://example.com/webhooks?hmac=a86745592dcfb40d522d958b7bc528b53247566ca5e7dac2c6f1529e3d095655```.
+http://example.com/webhooks?hmac=a86745592dcfb40d522d958b7bc528b53247566ca5e7dac2c6f1529e3d095655.
 
 Key used to generate HMAC hashes can be set in plugin settings.
 
