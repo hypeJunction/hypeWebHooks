@@ -1,0 +1,29 @@
+{
+	"name": "hypejunction/hypewebhooks",
+	"type": "elgg-plugin",
+	"description": "Web hooks for Elgg",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "hypeJunction", "web hooks"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeWebHooks"
+	},
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "1.*"
+	},
+	 "autoload": {
+        "psr-0": {
+            "": "classes/"
+        }
+    }
+}
+
